@@ -1,0 +1,370 @@
+
+    
+    #home{
+    background: linear-gradient(to right, #fef6b8, #ffd1d1,#fa9ff1
+    );
+    display: flex;
+    align-items: center;
+}
+
+#image1{
+    width: 93vh;
+    height: 100%;
+}
+
+#lorem>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    font-size: 50px;
+    margin-left: 80px;
+    position: relative;
+    bottom: 100px;
+}
+#lorem>p{
+    font-family:sans-serif;
+    font-size: 18px;
+    margin-left: 80px;
+    margin-right: 60px;
+    position: relative;
+    bottom: 40px;
+    font-weight: lighter;
+    line-height: 25px;
+}
+
+#click{
+background-color: #ff7070;
+color: white;
+border: none;
+height: 45px;
+width: 230px;
+margin-left: 80px;
+margin-top: 40px;
+font-size: 15px;
+}
+
+section{
+    background: linear-gradient(to right, #fef6b8, #ffd1d1,#fa9ff1
+    );
+}
+
+#image2{
+    height: 200px;
+    width: 250px;
+    position: relative;
+    top: 140px;
+    left: 110px;
+}
+
+#image3{
+    height: 200px;
+    width: 250px;
+    position: relative;
+    top: 230px;
+    left: 110px;
+}
+
+#image4{
+    height: 420px;
+    width: 260px;
+    position: relative;
+    bottom: 120px;
+    left: 380px;
+}
+
+#box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 700px;
+    bottom: 180px;
+    width: 500px;
+    height: 250px;
+    background-color: #ff7070;
+    flex-direction: column;
+}
+
+section>div{
+    height: 130px;
+}
+
+html{
+    background: linear-gradient(to right, #fef6b8, #ffd1d1,#fa9ff1
+    );
+}
+
+#box>p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#lorem_ipsum{
+font-family: Arial, Helvetica, sans-serif;
+position: absolute;
+left: 30px;
+top: 24px;
+}
+
+#title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    position: absolute;
+    left: 30px;
+}
+
+#img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+    gap: 10px;
+}
+
+
+@media all and (max-width:1024px) {
+    
+    #lorem>h1{
+        position: relative;
+        bottom: 40px;
+    }
+
+    #lorem>p{
+        position: relative;
+        top: 10px;
+        width: 461px;
+    }
+
+    nav{
+        width: 1200px;
+    }
+
+    #click{
+        position: relative;
+       top: 30px;
+    }
+
+    html{
+        width: 1200px;
+    }
+
+    #box{
+        width: 400px;
+        height: 250px;
+    }
+
+    #title{
+        font-size: 45px;
+    }
+  } 
+/* 
+  @media only screen and (max-width: 768px) {
+    
+    main{
+        height: 120vh;
+    }
+} */
+
+
+@media all and (max-width:425px)  {
+    
+  #box{
+    position: relative;
+    bottom: -350px;
+   left: 300px;
+   width: 500px;
+   height: 300px;
+  }
+
+  #image2{
+    height: 250px;
+    width: 320px;
+    position: relative;
+    top: 140px;
+    left: 220px;
+}
+
+#image3{
+    height: 250px;
+    width: 320px;
+    position: relative;
+    top: 280px;
+    left: 220px;
+}
+
+#image4{
+    height: 517px;
+    width: 280px;
+    position: relative;
+    bottom: 120px;
+    left: 600px;
+}
+#lorem>h1{
+    font-size: 60px;
+}
+
+#lorem>p{
+    font-size: 25px;
+    line-height: 30px;
+}
+
+  } 
+
+
+@media all and (max-width:375px)  {
+
+#image1{
+    height: 800px;
+}
+
+#click{
+    height: 65px;
+    width: 250px;
+    font-size: 24px;
+}
+nav{
+    padding: 40px;
+}
+}
+
+
+@media all and (max-width:320px)  {
+
+    #image1{
+        height: 900px;
+    }
+    
+    #click{
+        height: 65px;
+        width: 250px;
+        font-size: 24px;
+    }
+    nav{
+        padding: 40px;
+    }
+
+    #image2{
+        height: 350px;
+        width: 420px;
+        position: relative;
+        top: 130px;
+        left: 210px;
+        
+    }
+    
+    #image3{
+        height: 350px;
+        width: 420px;
+        position: relative;
+        top: 370px;
+        left: 210px;
+    }
+    
+    #image4{
+        height: 700px;
+        width: 390px;
+        position: relative;
+        bottom: 120px;
+        left: 680px;
+    }
+
+    #box{
+        position: relative;
+        top: 550px;
+       left: 300px;
+       width: 550px;
+       height: 300px;
+      }
+
+      #lorem_ipsum{
+        font-size: 28px;
+      }
+
+      #img{
+        font-size: 28px;
+      }
+    }
+
+    @media all and (min-width:1025px) and (max-width:1175px) {
+    
+        #lorem>h1{
+            position: relative;
+            bottom: 40px;
+        }
+    
+        #lorem>p{
+            position: relative;
+            top: 10px;
+            width: 461px;
+        }
+    
+        nav{
+            width: 1200px;
+        }
+    
+        #click{
+            position: relative;
+           top: 30px;
+        }
+    
+        html{
+            width: 1200px;
+        }
+    
+        #box{
+            width: 400px;
+            height: 250px;
+        }
+    
+        #title{
+            font-size: 45px;
+        }
+      }
+
+
+      @media all and (min-width:424px) and (max-width:767px) {
+    
+        #box{
+            position: relative;
+            bottom: -350px;
+           left: 300px;
+           width: 500px;
+           height: 300px;
+          }
+        
+          #image2{
+            height: 250px;
+            width: 320px;
+            position: relative;
+            top: 140px;
+            left: 220px;
+        }
+        
+        #image3{
+            height: 250px;
+            width: 320px;
+            position: relative;
+            top: 280px;
+            left: 220px;
+        }
+        
+        #image4{
+            height: 517px;
+            width: 280px;
+            position: relative;
+            bottom: 120px;
+            left: 600px;
+        }
+        #lorem>h1{
+            font-size: 60px;
+        }
+        
+        #lorem>p{
+            font-size: 25px;
+            line-height: 30px;
+        }
+        
+          } 
+        
