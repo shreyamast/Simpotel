@@ -55,12 +55,10 @@ body{
 }
 main{
     margin-bottom: 13px;
-    /* height: 164vh; */
     background: linear-gradient(to right, #fef6b8, #ffd1d1, #fa9ff1);
 }
 section {
   background: linear-gradient(to right, #fef6b8, #ffd1d1, #fa9ff1);
-  /* background-color: red; */
   margin-top: 20px;
   height: 102vh;
 }
@@ -106,9 +104,6 @@ section > div {
   height: 130px;
 }
 
-/* body {
-  background: linear-gradient(to right, #fef6b8, #ffd1d1, #fa9ff1);
-} */
 
 #box > p {
   font-family: Arial, Helvetica, sans-serif;
@@ -181,10 +176,10 @@ section > div {
 }
 
 
-@media all and (max-width: 425px) {
+@media all and (min-width: 376px) and (max-width: 425px) {
   #box {
     position: relative;
-    bottom: 132px;
+    bottom: -92px;
     left: 752px;
     width: 400px;
     height: 250px;
@@ -194,7 +189,7 @@ section > div {
     height: 263px;
     width: 335px;
     position: relative;
-    top: 104px;
+    top: 334px;
     left: 63px;
   }
 
@@ -202,15 +197,15 @@ section > div {
     height: 263px;
     width: 335px;
     position: relative;
-    top: 283px;
+    top: 483px;
     left: 63px;
   }
 
   #image4 {
-    height: 560px;
+    height: 534px;
     width: 280px;
     position: relative;
-    bottom: 156px;
+    bottom: -74px;
     left: 421px
   }
   #lorem > h1 {
@@ -224,13 +219,13 @@ section > div {
   section {
     background: linear-gradient(to right, #fef6b8, #ffd1d1, #fa9ff1);
     margin-top: 20px;
-    height: 167vh;
+    height: 1220px;
   } 
 }
 
-@media all and (max-width: 375px) {
+@media all and (min-width: 321px) and (max-width: 375px) {
   #image1 {
-    height: 800px;
+    height: 1200px;
   }
 
   #click {
@@ -246,10 +241,11 @@ section > div {
    section {
     background: linear-gradient(to right, #fef6b8, #ffd1d1, #fa9ff1);
     margin-top: 20px;
-    height: 179vh;
+    height: 1170px;
   } 
 
   #box {
+    
     position: relative;
     bottom: -90px;
     left: 752px;
@@ -282,7 +278,7 @@ section > div {
   }
 }
 
-@media all and (max-width: 320px) {
+@media all and (min-width: 0px) and (max-width: 320px) {
   #image1 {
     height: 900px;
   }
@@ -376,6 +372,11 @@ section > div {
   #title {
     font-size: 45px;
   }
+  section {
+    background: linear-gradient(to right, #fef6b8, #ffd1d1, #fa9ff1);
+    margin-top: 20px;
+    height: 690px;
+  }
 }
 
 @media all and (min-width: 424px) and (max-width: 767px) {
@@ -418,4 +419,19 @@ section > div {
     font-size: 25px;
     line-height: 30px;
   }
+
+  section {
+    background: linear-gradient(to right, #fef6b8, #ffd1d1, #fa9ff1);
+    margin-top: 20px;
+    height: 950px;
+  }
 }
+
+
+@media all and (min-width: 1176px) and (max-width: 1430px) {
+    section {
+        background: linear-gradient(to right, #fef6b8, #ffd1d1, #fa9ff1);
+        margin-top: 20px;
+        height: 684px;
+      }
+  }
