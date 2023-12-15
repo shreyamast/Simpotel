@@ -82,7 +82,12 @@ cursor: pointer;
     nav input:checked~ul.menu {
         display: flex;
     }
-  #image1{
-    
+    #hamburger{
+    display: none;
   }
+  section {
+    background: linear-gradient(to right, #fef6b8, #ffd1d1, #fa9ff1);
+    margin-top: 20px;
+    height: 114vh;
+  } 
 }
